@@ -43,8 +43,7 @@ public class Main {
             System.out.println(i);
         }
 
-        System.out.println ( );
-        System.out.println("Savings every month");
+        System.out.println("\nSavings every month");
         int savings = 0;
         for (int i = 1; i <= 12; i++) {
             int savingsPerMonth = 29000;
@@ -52,8 +51,7 @@ public class Main {
             System.out.println("Месяц " + i + " сумма накоплений равна " + savings + " рублей");
         }
 
-        System.out.println ( );
-        System.out.println("Savings every month, 12% interest");
+        System.out.println("\nSavings every month, 12% interest");
         int totalSum = 0;
         for (int i = 1; i <= 12; i++) {
             int sumPerMonth = 29000 + 29000 / 100;
